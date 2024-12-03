@@ -1,3 +1,7 @@
+def read_file(file='input.txt'):
+    return open(file, 'r').read()
+
+
 def get_lines(file='input.txt'):
     return [line.strip() for line in open(file, 'r').readlines()]
 
