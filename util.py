@@ -33,3 +33,6 @@ def invert_matrix(matrix):
     return new_matrix
 
 
+def char_matrix(lines):
+    return [[char for char in line] for line in lines]
+
