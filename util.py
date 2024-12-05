@@ -1,5 +1,5 @@
 def read_file(file='input.txt'):
-    return open(file, 'r').read()
+    return open(file, 'r').read().strip()
 
 
 def get_lines(file='input.txt'):
